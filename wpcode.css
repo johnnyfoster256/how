@@ -1,0 +1,197 @@
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ *
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ */
+.syntaxhighlighter {
+	background-color: white !important;
+	border: 1px solid #E5E7EB;
+	border-radius: 6px 6px 0 0;
+	padding: 0 !important;
+	margin-bottom: 0 !important;
+	width: auto !important;
+}
+
+.syntaxhighlighter td.gutter .line:last-child {
+	padding-bottom: 25px !important;
+}
+
+.syntaxhighlighter table td.code .line {
+	line-height: 1.5 !important;
+}
+
+.syntaxhighlighter .gutter .line.index0 {
+	padding-top: 25px !important;
+}
+
+.syntaxhighlighter .line.alt1 {
+	background-color: white !important;
+}
+
+.syntaxhighlighter .line.alt2 {
+	background-color: white !important;
+}
+
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
+	background-color: #e0e0e0 !important;
+}
+
+.syntaxhighlighter .line.highlighted.number {
+	color: black !important;
+}
+
+.syntaxhighlighter table caption {
+	color: black !important;
+}
+
+.syntaxhighlighter .gutter {
+	color: #afafaf !important;
+}
+
+.syntaxhighlighter table td.gutter .line {
+	border-right: 1px solid #E5E7EB !important;
+	padding: 0 15px !important;
+	line-height: 1.5 !important;
+}
+
+.syntaxhighlighter .gutter .line.highlighted {
+	background-color: #E5E7EB !important;
+	color: white !important;
+}
+
+.syntaxhighlighter.printing .line .content {
+	border: none !important;
+}
+
+.syntaxhighlighter.collapsed {
+	overflow: visible !important;
+}
+
+.syntaxhighlighter.collapsed .toolbar {
+	color: blue !important;
+	background: white !important;
+	border: 1px solid #6ce26c !important;
+}
+
+.syntaxhighlighter.collapsed .toolbar a {
+	color: blue !important;
+}
+
+.syntaxhighlighter.collapsed .toolbar a:hover {
+	color: red !important;
+}
+
+.syntaxhighlighter .toolbar {
+	color: white !important;
+	background: #6ce26c !important;
+	border: none !important;
+}
+
+.syntaxhighlighter .toolbar a {
+	color: white !important;
+}
+
+.syntaxhighlighter .toolbar a:hover {
+	color: black !important;
+}
+
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a {
+	color: #141b38 !important;
+}
+
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+	color: #008200 !important;
+}
+
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+	color: #54790d !important;
+}
+
+.syntaxhighlighter .keyword {
+	color: #b75501 !important;
+}
+
+.syntaxhighlighter .preprocessor {
+	color: gray !important;
+}
+
+.syntaxhighlighter .variable {
+	color: #aa7700 !important;
+}
+
+.syntaxhighlighter .value {
+	color: #009900 !important;
+}
+
+.syntaxhighlighter .functions {
+	color: #015692 !important;
+}
+
+.syntaxhighlighter .constants {
+	color: #0066cc !important;
+}
+
+.syntaxhighlighter .script {
+	font-weight: bold !important;
+	color: #015692 !important;
+	background-color: transparent !important;
+}
+
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
+	color: #015692 !important;
+}
+
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
+	color: #015692 !important;
+}
+
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
+	color: red !important;
+}
+
+.syntaxhighlighter .keyword {
+	font-weight: bold !important;
+}
+
+.wpcode-syntax-footer {
+	font-size: 12px;
+	display: flex;
+	padding: 8px 12px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #F6F8FA;
+	border-color: #E5E7EB;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-radius: 0 0 6px 6px;
+	color: #1F2937;
+}
+
+.wpcode-syntax-footer a {
+	color: #1F2937 !important;
+	text-decoration: none;
+}
+
+.wpcode-syntax-footer a:hover {
+	text-decoration: underline;
+}
+
+.wpcode-syntax-footer .wpcode-syntax-code-footer-right {
+	display: flex;
+	align-items: center;
+}
+
+.wpcode-syntax-footer .wpcode-syntax-code-footer-right svg {
+	margin-right: 6px;
+}
